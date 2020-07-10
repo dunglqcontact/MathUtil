@@ -13,5 +13,6 @@ tecnucs applied: TDD, Unit Testing (JUnit)
 ## Connection me via:
 1. [GitHub](https://github.com/dunglqcontact)
 2. [Facebook](https://www.facebook.com/quocdung.le.56)
+3. [Email](dunglq.contact@gmail.com)
 
 #### © 2020 by Dung.Dep.Trai
