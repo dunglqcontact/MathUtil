@@ -18,6 +18,10 @@ public class MathUtil {
     //tối đa 2 tỷ 1, nên mình xài long an toàn hơn, 15! cao lắm rồi, tối đa 15!
     public static long computeFactorial(int n) {
 
+        //nếu người dùng nhập ngu quá, ta sẽ ném ra ngoại lệ
+        if (n < 0 || n > 15) {
+            throw new IllegalArgumentException("Nhập ngu quá nhập lại đi, số nhập phải không nhỏ hơn 0 và không lớn hơn 15");
+        }
         long result = 1;
         for (int i = 1; i <= n; i++) {
             result *= i;
